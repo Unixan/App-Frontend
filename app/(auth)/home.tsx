@@ -1,7 +1,11 @@
+import NavBar from "@/components/NavBar";
 import { Text } from "react-native";
 
 const Home = () => {
-  return <Text>Home</Text>;
+  return <>
+  <NavBar/>
+  <Text>Home</Text>
+  </>;
 };
 
 export default Home
