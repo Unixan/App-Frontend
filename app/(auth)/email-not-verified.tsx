@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function EmailNotVerifiedScreen() {
+const EmailNotVerifiedScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Email Not Verified Screen</Text>
     </View>
   );
 }
+
+export default EmailNotVerifiedScreen
 
 const styles = StyleSheet.create({
   container: {
@@ -18,3 +20,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 });
+

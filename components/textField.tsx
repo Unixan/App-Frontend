@@ -2,15 +2,13 @@ import { StyleSheet, TextInput, TextInputProps, View } from "react-native";
 
 interface CustomTextInputProps extends TextInputProps {}
 
-function TextField(props: CustomTextInputProps) {
+const TextField = (props: CustomTextInputProps) => {
   return (
     <View style={styles.inputContainer}>
-      <TextInput {...props} 
-      style={[styles.input]}
-      />
+      <TextInput {...props} style={[styles.input]} />
     </View>
   );
-}
+};
 
 export default TextField;
 
